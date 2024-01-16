@@ -4,7 +4,7 @@ import css from './footer.module.scss';
 import { footerVariants, staggerChildren } from "@/utils/motion";
 import {motion} from 'framer-motion'
 
-export default function(){
+export default function Footer(){
     return(
         <motion.section
     variants={staggerChildren}

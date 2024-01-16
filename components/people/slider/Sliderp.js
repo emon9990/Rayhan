@@ -72,7 +72,7 @@ const Sliderp = () => {
                 {
                     comments.map((comment, i) => {
                         return <div className={css.comment} key={i}>
-                            <img src={comment.img} />
+                            <img src={comment.img} alt="slideimg" />
                             <p>{comment.comment}</p>
 
                             <div className={css.line}></div>

@@ -31,7 +31,7 @@ export default function Hero() {
                 <motion.div 
                 variants={fadeIn("up", "tween",0.3,1)}
                 className={css.person}>
-                    <Image src={person} />
+                    <Image src={person} alt='certificet' />
                 </motion.div>
 
 
@@ -57,7 +57,7 @@ export default function Hero() {
                     <motion.div
                     variants={fadeIn("left", "tween",0.4,1)}
                     className={css.certificate}>
-                        <Image className={css.img} src={certficateImg} />
+                        <Image className={css.img}  src={certficateImg} alt='heroside' />
                         <span>CERTIFIED PROFESSIONAL</span>
                         <span>SEO EXPERT AND DIGITAL</span>
                         <span>MARKETER</span>

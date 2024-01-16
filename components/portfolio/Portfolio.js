@@ -28,9 +28,9 @@ export default function Portfolio(){
 
 
         <div className={`flexCenter ${css.showCase}`}>
-            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./showCase1.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./showCase1.png" alt="projectone" />
+            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="projecttwo" />
+            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="projectthree" />
         </div>
       </div>
     </motion.section>

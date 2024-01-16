@@ -2,7 +2,7 @@
 
 import { fadeIn, staggerChildren, textVariant } from "@/utils/motion"
 import { motion } from "framer-motion"
-import css from "./Portfolio.module.scss";
+import css from "./portfolio.module.scss";
 
 export default function Portfolio(){
     return(

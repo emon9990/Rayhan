@@ -6,7 +6,7 @@ import Experties from '@/components/experties/Experties'
 import Work from '@/components/works/Work'
 import Portfolio from '@/components/portfolio/Portfolio'
 import People from '@/components/people/People'
-import Footer from '@/components/footer/Footer'
+
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
     <Work/>
     <Portfolio/>
     <People/>
-    <Footer/>
+   
     </div>
     </>
   )
